@@ -1,0 +1,77 @@
+//Alyssa Sharpe
+//Lab08 Part B
+//11.20.19   output.txt  
+
+
+Test 1:
+
+Command: ~/Lab08/Lab08Bmain abc
+Error you did not enter in enough arguments, exiting program...
+
+
+
+Test 2:
+Command: ~/Lab08/Lab08Bmain cacac c ca cacac cac 
+Five arguments passed in.
+First String: cacac
+Second String: c
+These strings are different.
+Number of replacements: 1
+Reversed string: X
+Number of replacements: 1
+Reversed string: Y
+-----------
+First String: cacac
+Second String: ca
+These strings are different.
+Number of replacements: 1
+Reversed string: aX
+Number of replacements: 1
+Reversed string: XY
+-----------
+First String: cacac
+Second String: cacac
+These strings are the same.Number of replacements: 3
+Reversed string: XaXaX
+Number of replacements: 3
+Reversed string: YaYaY
+-----------
+First String: cacac
+Second String: cac
+These strings are different.
+Number of replacements: 2
+Reversed string: XaX
+Number of replacements: 2
+Reversed string: YaY
+
+Test 3:
+Command: ~/Lab08/Lab08Bmain hello hello onomatopoeia abracadabra
+
+Four arguments passed in.
+-----------
+First String: hello
+Second String: hello
+These strings are the same.
+Number of replacements: 1
+Reversed string: olleX
+Number of replacements: 1
+Reversed string: XellY
+-----------
+First String: hello
+Second String: onomatopoeia
+These strings are different.
+Number of replacements: 4
+Reversed string: aieXpXtamXnX
+Number of replacements: 2
+Reversed string: XnXmYtXpXeiY
+-----------
+First String: hello
+Second String: abracadabra
+These strings are different.
+Number of replacements: 5
+Reversed string: XrbXdXcXrbX
+Number of replacements: 5
+Reversed string: YbrYcYdYbrY
+
+
+

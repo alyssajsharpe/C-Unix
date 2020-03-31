@@ -1,0 +1,63 @@
+//Alyssa Sharpe
+//Lab09 output.txt
+//CS 367 11.30.2019
+
+Run 1:
+main 14 75 < cars1.txt
+The model Geo(2008)is avaliable to you for a rate of $49.99.
+The model Mustang(2006)is avaliable to you for a rate of $56.00.
+The model Focus(2008)is avaliable to you for a rate of $50.00.
+The model Camry(1999)is avaliable to you for a rate of $55.50.
+The model GrandPrix(2011)is avaliable to you for a rate of $22.00.
+The model Civic(2001)is avaliable to you for a rate of $39.98.
+The model Geo(2002)is avaliable to you for a rate of $39.99.
+The model Mustang(2005)is avaliable to you for a rate of $66.00.
+The model Civic(2000)is avaliable to you for a rate of $39.98.
+The model Camry(1999)is avaliable to you for a rate of $50.50.
+
+
+Run 2:
+main 9 50 < cars2.txt
+ERROR: invalid argument passed into array.
+
+Run 3:
+main 126 66 < cars2.txt
+The model Geo(2002)is avaliable to you for a rate of $39.99.
+The model Mustang(2005)is avaliable to you for a rate of $66.00.
+The model Civic(2000)is avaliable to you for a rate of $39.98.
+The model Camry(1999)is avaliable to you for a rate of $50.50.
+The model Geo(2008)is avaliable to you for a rate of $49.99.
+The model Mustang(2006)is avaliable to you for a rate of $56.00.
+The model Focus(2008)is avaliable to you for a rate of $50.00.
+The model Camry(1999)is avaliable to you for a rate of $55.50.
+The model GrandPrix(2011)is avaliable to you for a rate of $22.00.
+The model Civic(2001)is avaliable to you for a rate of $39.98.
+The model Geo(2002)is avaliable to you for a rate of $39.99.
+The model Mustang(2005)is avaliable to you for a rate of $66.00.
+The model Civic(2000)is avaliable to you for a rate of $39.98.
+The model Camry(1999)is avaliable to you for a rate of $50.50.
+The model GrandPrix(2011)is avaliable to you for a rate of $22.00.
+The model Civic(2001)is avaliable to you for a rate of $39.98.
+The model Geo(2002)is avaliable to you for a rate of $39.99.
+The model Mustang(2005)is avaliable to you for a rate of $66.00.
+The model Civic(2000)is avaliable to you for a rate of $39.98.
+The model Camry(1999)is avaliable to you for a rate of $50.50.
+The model Geo(2008)is avaliable to you for a rate of $49.99.
+The model Mustang(2006)is avaliable to you for a rate of $56.00.
+The model Focus(2008)is avaliable to you for a rate of $50.00.
+The model Camry(1999)is avaliable to you for a rate of $55.50.
+The model GrandPrix(2011)is avaliable to you for a rate of $22.00.
+The model Civic(2001)is avaliable to you for a rate of $39.98.
+The model Geo(2002)is avaliable to you for a rate of $39.99.
+The model Mustang(2005)is avaliable to you for a rate of $66.00.
+The model Civic(2000)is avaliable to you for a rate of $39.98.
+The model Camry(1999)is avaliable to you for a rate of $50.50.
+The model Geo(2008)is avaliable to you for a rate of $49.99.
+The model Mustang(2006)is avaliable to you for a rate of $56.00.
+The model Focus(2008)is avaliable to you for a rate of $50.00.
+The model Camry(1999)is avaliable to you for a rate of $55.50.
+The model GrandPrix(2011)is avaliable to you for a rate of $22.00.
+The model Civic(2001)is avaliable to you for a rate of $39.98.
+The model Geo(2002)is avaliable to you for a rate of $39.99.
+The model Mustang(2005)is avaliable to you for a rate of $66.00.
+The model Civic(2000)is avaliable to you for a rate of $39.98.

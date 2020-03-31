@@ -1,0 +1,83 @@
+//Alyssa Sharpe
+//Lab08 Part A1 & A2
+//11.20.19   output.txt  
+
+Part A1:
+
+Run 1: 
+main 6.8 7.2 8.6 9.8
+Average of grades: 8.10
+Highest grade: 9.80
+
+
+Run 2: 
+main 8.7 0.0 7.5
+Average of grades: 5.40
+Highest grade: 8.70
+
+
+
+
+Part A2: GNU debugger
+
+
+Command: ~/Lab08/Lab08Agdb main
+GNU gdb (GDB) Red Hat Enterprise Linux (7.2-92.el6)
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/SOU/sharpea/Lab08/Lab08A/main...done.
+(gdb) break main
+Breakpoint 1 at 0x4005d4: file main.c, line 10.
+(gdb) run 1.2 3.4 5.6
+Starting program: /home/SOU/sharpea/Lab08/Lab08A/main 1.2 3.4 5.6
+
+Breakpoint 1, main (argc=4, argv=0x7fffffffe4e8) at main.c:10
+10      int main(int argc,char* argv[]){
+(gdb) n
+13              const int MAX = 100;
+(gdb) n
+14              float arr[MAX]; //argc = number of arguments passed ina
+(gdb) n
+15              if(argc<=1){
+(gdb) n
+19                      for (i=1; i<argc; i++){
+(gdb) n
+20                              sscanf(argv[i], "%f", &val);
+(gdb) n
+21                              arr[i-1] = val;
+(gdb) n
+19                      for (i=1; i<argc; i++){	
+(gdb) n
+20                              sscanf(argv[i], "%f", &val);
+(gdb) n
+21                              arr[i-1] = val;
+(gdb) n
+19                      for (i=1; i<argc; i++){
+(gdb) n
+20                              sscanf(argv[i], "%f", &val);
+(gdb) n
+21                              arr[i-1] = val;
+(gdb) n
+19                      for (i=1; i<argc; i++){
+(gdb) n
+23              printf("Average of grades: %.2f\n", average(arr, argc-1));
+(gdb) n
+Average of grades: 7.33
+24              printf("Highest grade: %.2f\n", highestGrade(arr, argc-1));
+(gdb) step
+highestGrade (arr=0x7fffffffe220, numGrades=3) at functions.c:20
+20              largest = *arr;
+(gdb) p *arr
+$1 = 6.30000019
+(gdb) p numGrades
+$2 = 3
+(gdb) where
+#0  highestGrade (arr=0x7fffffffe220, numGrades=3) at functions.c:20
+#1  0x00000000004006c8 in main (argc=4, argv=0x7fffffffe4e8) at main.c:24Part A2:
+
